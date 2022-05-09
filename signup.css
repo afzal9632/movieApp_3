@@ -1,0 +1,40 @@
+#navbar{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    border: 2px solid rgb(81, 75, 75);
+    padding-right: 10px;
+}
+#navbar a{
+    text-decoration: none;
+}
+.nav{
+    text-decoration: none;
+    
+    font-size: 20px;
+   color: gray;
+}
+#signup-form-div{
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#signup-form-div>h2{
+    font-size: 30px;
+}
+#signup-form-div>form>input{
+    margin-bottom: 20px;
+}
+#submit{
+    background-color: teal;
+    color: white;
+}
+#submit:hover{
+    background-color: red;
+    /* color: white; */
+    cursor: pointer;
+    border-radius: 5px;
+}

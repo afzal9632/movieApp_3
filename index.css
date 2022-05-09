@@ -1,0 +1,74 @@
+#navbar{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    border: 2px solid rgb(81, 75, 75);
+    padding-right: 10px;
+}
+#navbar a{
+    text-decoration: none;
+}
+.nav{
+    text-decoration: none;
+    
+    font-size: 20px;
+   color: gray;
+}
+#slideshow{
+    text-align: center;
+}
+#slideshow>img{
+    width: 100%;
+    height: 450px;
+}
+#movies{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(3,300px); */
+    /* grid-gap: 20px; */
+   
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid teal; */
+    margin-top: 50px;
+}
+#movies>div{
+    /* border: 1px solid red; */
+    padding: 10px;
+     margin-bottom: 20px;
+    height: 90%;
+    width: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2px;
+    margin-left: 40PX;
+}
+#movies>div>div{
+    height: 70%  ;
+    /* border: 1px solid black; */
+}
+#movies>div>div>img{
+    width: 100%;
+    height: 100%;
+}
+#movies>div>p:last-child{
+ margin-bottom: -100px;
+}
+#sort-button{
+    margin-top: 20px;
+    margin-left: 40px;
+    
+}
+#sort-button>select{
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid black;
+
+}
+#sort-button>select:hover{
+    background-color: rgb(151, 151, 247);
+    color: rgb(253, 251, 251);
+}
